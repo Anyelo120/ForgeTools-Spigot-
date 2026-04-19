@@ -1,0 +1,25 @@
+settings:
+  language: es
+  prefix: "&8[&6ForgeTools&8]&r"
+
+  # Energía — regeneración pasiva
+  energy_regen_interval_ticks: 4        # Cada cuántos ticks se incrementa energía en memoria
+  energy_regen_amount: 1                # Cuánta energía se agrega por tick de regen
+
+  # Energía — sincronización a PDC (evita spam de paquetes SET_SLOT)
+  # Intervalo al que se escribe la energía al PDC y se actualiza el lore visible
+  # Recomendado: 60-100 ticks (3-5 segundos). Menor = más lag visual en creativo.
+  energy_sync_interval_ticks: 60
+
+  # Anti-lag
+  max_blocks_per_tick: 25
+
+  # Logging / Protecciones
+  log_to_coreprotect: true
+  check_worldguard: true
+  check_griefprevention: true
+  check_towny: true
+
+  # Efectos visuales
+  particles_enabled: true
+  sounds_enabled: true

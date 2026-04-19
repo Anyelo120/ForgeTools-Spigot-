@@ -1,0 +1,72 @@
+name: ForgeTools
+version: '${project.version}'
+main: com.forgetools.ForgeToolsPlugin
+api-version: '1.21'
+description: Custom SMP tools for building and terrain cleanup
+authors: [ForgeTools Team]
+website: https://github.com/forgetools
+
+softdepend: [WorldGuard, GriefPrevention, Towny, CoreProtect, Vault, ItemsAdder, Oraxen]
+
+commands:
+  forgetools:
+    description: ForgeTools main command
+    usage: /forgetools <give|list|reload|setfilter>
+    aliases: [ft]
+    permission: forgetools.command
+
+permissions:
+  forgetools.command:
+    description: Access to /forgetools command
+    default: op
+  forgetools.admin.reload:
+    description: Reload plugin configuration
+    default: op
+  forgetools.admin.give:
+    description: Give tools to players
+    default: op
+  forgetools.use.chunk_hammer:
+    description: Use the Chunk Hammer
+    default: true
+  forgetools.use.debris_vacuum:
+    description: Use the Debris Vacuum
+    default: true
+  forgetools.use.terrain_eraser:
+    description: Use the Terrain Eraser
+    default: true
+  forgetools.use.bridge_forge:
+    description: Use the Bridge Forge
+    default: true
+  forgetools.use.scaffold_launcher:
+    description: Use the Scaffold Launcher
+    default: true
+  forgetools.use.fill_pulse:
+    description: Use the Fill Pulse
+    default: true
+  forgetools.use.wall_raiser:
+    description: Use the Wall Raiser
+    default: true
+  forgetools.use.echo_picker:
+    description: Use the Echo Picker
+    default: true
+  forgetools.use.gravity_anchor:
+    description: Use the Gravity Anchor
+    default: true
+  forgetools.use.light_weaver:
+    description: Use the Light Weaver
+    default: true
+  forgetools.use.resource_recycler:
+    description: Use the Resource Recycler
+    default: true
+  forgetools.use.auto_level_shovel:
+    description: Use the Auto Level Shovel
+    default: true
+  forgetools.use.claim_polisher:
+    description: Use the Claim Polisher
+    default: true
+  forgetools.use.phantom_placer:
+    description: Use the Phantom Placer
+    default: true
+  forgetools.use.biome_stitcher:
+    description: Use the Biome Stitcher
+    default: op
