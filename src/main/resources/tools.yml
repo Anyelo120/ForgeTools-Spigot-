@@ -1,0 +1,217 @@
+chunk_hammer:
+  display_name: "&6Chunk Hammer"
+  base: DIAMOND_PICKAXE
+  energy_max: 100
+  energy_cost: 8
+  cooldown_ticks: 8
+  max_uses: 500
+  mode_names:
+    - "Line Break"
+    - "Flat Clean 3x3"
+  radius: 3
+  allowed_blocks:
+    - STONE
+    - DIRT
+    - GRASS_BLOCK
+    - COBBLESTONE
+    - SAND
+    - GRAVEL
+    - DEEPSLATE
+    - ANDESITE
+    - DIORITE
+    - GRANITE
+
+debris_vacuum:
+  display_name: "&bDebris Vacuum"
+  base: IRON_HOE
+  energy_max: 100
+  energy_cost: 5
+  cooldown_ticks: 5
+  max_uses: 800
+  mode_names:
+    - "Vacuum"
+  max_distance: 6
+  debris_types:
+    - GRAVEL
+    - SAND
+    - RED_SAND
+    - OAK_LEAVES
+    - SPRUCE_LEAVES
+    - BIRCH_LEAVES
+    - JUNGLE_LEAVES
+    - ACACIA_LEAVES
+    - DARK_OAK_LEAVES
+    - SCAFFOLDING
+    - VINE
+    - SNOW
+
+terrain_eraser:
+  display_name: "&aTerrain Eraser"
+  base: NETHERITE_SHOVEL
+  energy_max: 100
+  energy_cost: 12
+  cooldown_ticks: 12
+  max_uses: 300
+  mode_names:
+    - "Erase Top Layer"
+  radius: 4
+  filter_blocks:
+    - DIRT
+    - GRASS_BLOCK
+    - SAND
+    - GRAVEL
+    - PODZOL
+    - COARSE_DIRT
+    - ROOTED_DIRT
+    - MUD
+    - CLAY
+
+bridge_forge:
+  display_name: "&eBridge Forge"
+  base: GOLDEN_AXE
+  energy_max: 100
+  energy_cost: 3
+  cooldown_ticks: 1
+  max_uses: 1000
+  mode_names:
+    - "Bridge"
+    - "Rail Mode"
+  max_length: 12
+
+scaffold_launcher:
+  display_name: "&fScaffold Launcher"
+  base: BAMBOO
+  energy_max: 100
+  energy_cost: 6
+  cooldown_ticks: 10
+  max_uses: 400
+  mode_names:
+    - "Vertical"
+    - "Horizontal"
+  max_distance: 8
+  auto_remove_ticks: 600
+
+fill_pulse:
+  display_name: "&dFill Pulse"
+  base: AMETHYST_SHARD
+  energy_max: 100
+  energy_cost: 25
+  cooldown_ticks: 30
+  max_uses: 200
+  mode_names:
+    - "Fill Sphere"
+  radius: 2
+
+wall_raiser:
+  display_name: "&cWall Raiser"
+  base: BRICK
+  energy_max: 100
+  energy_cost: 4
+  cooldown_ticks: 8
+  max_uses: 600
+  mode_names:
+    - "Straight"
+    - "90° Curve"
+  height: 5
+  width: 5
+
+echo_picker:
+  display_name: "&9Echo Picker"
+  base: DIAMOND_PICKAXE
+  energy_max: 100
+  energy_cost: 10
+  cooldown_ticks: 10
+  max_uses: 400
+  mode_names:
+    - "Normal"
+    - "Echo"
+  flood_radius: 3
+  max_echo_blocks: 25
+
+gravity_anchor:
+  display_name: "&8Gravity Anchor"
+  base: ANVIL
+  energy_max: 100
+  energy_cost: 15
+  cooldown_ticks: 20
+  max_uses: 250
+  mode_names:
+    - "Gravity"
+  radius: 4
+
+light_weaver:
+  display_name: "&eLicht Weaver"
+  base: GLOWSTONE_DUST
+  energy_max: 100
+  energy_cost: 12
+  cooldown_ticks: 15
+  max_uses: 400
+  mode_names:
+    - "Place Lights"
+    - "Dark Mode"
+  radius: 3
+  light_block: SEA_LANTERN
+
+resource_recycler:
+  display_name: "&6Resource Recycler"
+  base: FURNACE_MINECART
+  energy_max: 100
+  energy_cost: 7
+  cooldown_ticks: 6
+  max_uses: 600
+  mode_names:
+    - "Auto-Smelt"
+  smelt_chance: 0.5
+
+auto_level_shovel:
+  display_name: "&aAuto Level Shovel"
+  base: NETHERITE_SHOVEL
+  energy_max: 100
+  energy_cost: 18
+  cooldown_ticks: 25
+  max_uses: 250
+  mode_names:
+    - "Level 5x5"
+  radius: 2
+  max_delta: 1
+
+claim_polisher:
+  display_name: "&7Claim Polisher"
+  base: NETHERITE_HOE
+  energy_max: 100
+  energy_cost: 30
+  cooldown_ticks: 60
+  max_uses: 150
+  mode_names:
+    - "Polish Claim"
+
+phantom_placer:
+  display_name: "&5Phantom Placer"
+  base: ENDER_PEARL
+  energy_max: 100
+  energy_cost: 9
+  cooldown_ticks: 12
+  max_uses: 500
+  mode_names:
+    - "Phantom Place"
+  max_distance: 15
+
+biome_stitcher:
+  display_name: "&2Biome Stitcher"
+  base: MOSS_BLOCK
+  energy_max: 100
+  energy_cost: 40
+  cooldown_ticks: 40
+  max_uses: 100
+  mode_names:
+    - "PLAINS"
+    - "FOREST"
+    - "DESERT"
+    - "TAIGA"
+    - "SWAMP"
+    - "JUNGLE"
+    - "SAVANNA"
+    - "SNOWY_PLAINS"
+    - "MUSHROOM_FIELDS"
+    - "CHERRY_GROVE"
+  section_size: 16
